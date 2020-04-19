@@ -1,0 +1,168 @@
+/*********************Tag Selectors****************/
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  text-align: center;
+  color: #40514E;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: 'Dancing Script', cursive;
+  margin: 50px auto 0 auto;
+  color: #3b6978;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: 'Varela Round', sans-serif;
+  color: #3b6978;
+  font-weight: normal;
+  padding-bottom: 10px;
+  margin: 40px auto 20px auto
+}
+
+h3 {
+  font-family: 'Varela Round', sans-serif;
+  color: #84a9ac;
+  font-weight: normal;
+}
+
+a {
+  color: #66BFBF;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 8px;
+  color: #EAF6F6;
+  width: 5%;
+  margin: 80px auto 80px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+/*********************Class Selectors****************/
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 120px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #84a9ac;
+  padding: 50px 0 20px;
+}
+
+.bussines {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 200px;
+}
+
+.profilepic {
+  width: 13%
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.hard-skills {
+  width: 25%;
+  float: left;
+  margin: auto 30px 10px auto;
+}
+
+.soft-skills {
+  width: 25%;
+  float: right;
+  margin: auto 30px 10px auto;
+}
+
+.job-description {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-me-description {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.footer-link {
+  font-family: 'Varela Round', sans-serif;
+  color: #3b6978;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 10px 20px;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
+}
+
+.copyright {
+  color: #EAF6F6;
+  padding: 20px 0;
+  font-size: 0.75rem;
+}
+
+.button {
+  background: #3B6978;
+  background-image: -webkit-linear-gradient(top, #3B6978, #84A9AC);
+  background-image: -moz-linear-gradient(top, #3B6978, #84A9AC);
+  background-image: -ms-linear-gradient(top, #3B6978, #84A9AC);
+  background-image: -o-linear-gradient(top, #3B6978, #84A9AC);
+  background-image: linear-gradient(to bottom, #3B6978, #84A9AC);
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  border-radius: 11px;
+  height: 12px;
+  line-height: 12px;
+  color: #FFFFFF;
+    font-family: 'Varela Round', sans-serif;
+  width: 177px;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 18px;
+  border: outset #FFFFFF 0px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button:hover {
+  border: solid #337FED 0px;
+  background: #84A9AC;
+  background-image: -webkit-linear-gradient(top, #84A9AC, #3B6978);
+  background-image: -moz-linear-gradient(top, #84A9AC, #3B6978);
+  background-image: -ms-linear-gradient(top, #84A9AC, #3B6978);
+  background-image: -o-linear-gradient(top, #84A9AC, #3B6978);
+  background-image: linear-gradient(to bottom, #84A9AC, #3B6978);
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  border-radius: 11px;
+  text-decoration: none;
+}
