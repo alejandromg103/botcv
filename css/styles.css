@@ -36,7 +36,7 @@ a {
 hr {
   border-style: dotted none none;
   border-width: 8px;
-  color: #EAF6F6;
+  color: #cae8d5;
   width: 5%;
   margin: 80px auto 80px auto;
 }
@@ -80,6 +80,7 @@ p {
 .profilepic {
   width: 13%
 }
+
 
 .skill-row {
   margin: 100px auto 100px auto;
